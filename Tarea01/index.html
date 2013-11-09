@@ -114,7 +114,35 @@
           repo', 'dirty working tree' y 'merge conflict'.
         </h3>
         <div class="answer">
-          Coloca tus respuestas aquí.
+          Index/ índice:
+El área de ensayo donde se añaden los archivos (por ejemplo, " git add ") 
+y se eliminan (por ejemplo, " git rm ") antes de que se añadan a un repositorio. 
+
+Working Directory/ Directorio de trabajo:
+El directorio donde residen los archivo que fueron extraídos.
+Los archivos en el directorio de trabajo se pueden añadir a la git ( por ejemplo, " git add" ) .
+
+Dirty Working Directory/Directorio de trabajo sucio:
+Si los archivos se han actualizado en el directorio de trabajo después de que se han actualizado en el índice , 
+entonces el directorio de trabajo se considera " sucia" . 
+El directorio de trabajo es limpio si todos los archivos modificados en el directorio de trabajo se han añadido al índice.
+
+Remote Repo
+Los repositorios remotos son versiones de tu proyecto que se encuentran alojados en Internet o en algún punto de la red. 
+Puedes tener varios, cada uno de los cuales puede ser de sólo lectura, o de lectura/escritura, según los permisos que tengas. 
+Colaborar con otros implica gestionar estos repositorios remotos, y mandar (push) y recibir (pull) datos de ellos cuando necesites compartir cosas.
+
+Local Repo
+Los repositorios locales son versiones de tu proyecto que se encuentran alojados en tu computador y que clonan a algún repositorio que se encuentra alojado en la red.
+
+
+Merge Conflict:
+Un conflicto surge si el commit al que se le desee hacer merge se le ha realizado un cambio en un lugar específico,
+y el commit actual tiene un cambio en el mismo lugar. Git no posee forma alguna de indicar cual de los dos cambios tiene prioridad sobre el otro
+
+Para resolver este commit, se debe editar los archivos con los cambios conflictivos.
+Luego correr git add para añadir los archivos corregidos, y correr git commit, para añadir el merge reparado.
+Git recuerda que uno se encontraba en medio de un merge, por lo que asigna los padres del commit correctamente.
         </div>
       </article>
       <article id="q4">
