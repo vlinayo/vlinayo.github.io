@@ -188,7 +188,7 @@
                 <td></td>
                 <td>R</td>
                 <td></td>
-                <td>W</td>
+                <td></td>
                 <td></td>
                 <td>W</td>
               </tr>
@@ -206,9 +206,9 @@
                 <th scope="row">local repo</th>
                 <td></td>
                 <td>W</td>
-                <td></td>
                 <td>W</td>
-                <td></td>
+                <td>W</td>
+                <td>W</td>
                 <td>R</td>
                 <td></td>
               </tr>
@@ -219,7 +219,7 @@
                 <td></td>
                 <td></td>
                 <td>R</td>
-                <td>R/W</td>
+                <td>W</td>
                 <td></td>
               </tr>
             </tbody>
